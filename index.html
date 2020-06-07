@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>WOEIndex</title>
-</head>
-<body>
-<header>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header">
+        <a href="index.html"><img src="../assets/images/WOE_Overlay.png" /></a>
 
-</header>
-<section>
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#"><span class="material-icons">
-login
-</span>Sign up/Register</a>
-    <a href="#"><span class="material-icons">
-store
-</span>Shop Here</a>
-    <a href="#"><span class="material-icons">
-contact_mail
-</span>Contact</a>
-    <a href="#"><span class="material-icons">
-info
-</span>About</a>
-  </div>
-</div>
+        <span
+          class="menu"
+          style="font-size: 40px; cursor: pointer;"
+          onclick="openNav()"
+          ><span class="material-icons menu-icon ml-auto"> menu </span> Menu</span
+        >
+      </div>
+    </header>
+    <main>
+    <div class="bg-bulk">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="#"
+            ><span class="material-icons "> login </span>Sign up/Register</a
+          >
+          <a href="#"><span class="material-icons"> store </span>Shop Here</a>
+          <a href="#"
+            ><span class="material-icons"> contact_mail </span>Contact</a
+          >
+          <a href="#"><span class="material-icons"> info </span>About</a>
+        </div>
+      </div>
+    </div>
 
+    </main>
+    <div class="main"></div>
+    <footer></footer>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
 
-<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
-
-</section>
-<footer>
-
-</footer>
- <script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-        
-</body>
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
 </html>

@@ -1,10 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&family: 100,200,300,400,500,600,700,800|Roboto: 100,200,300,400,500,600,700,800");
 
-/***************Background Image Section************/
- 
 body {
-font-family: "Roboto" , sans-serif;
-background-color: skyblue;
+  font-family: "Alice" 800, sans-serif;
+}
+
+/***************Header Section************/
+
+header {
+  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
+  background: -o-linear-gradient(45deg, skyblue, white, lavender);
+  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
+  background: linear-gradient(45deg, skyblue, white, lavender);
+  background-repeat: no-repeat;
+  opacity: 85%;
+  max-height: 100px;
+  width: auto;
 }
 
 /***************Overlay Section************/
@@ -12,15 +22,13 @@ background-color: skyblue;
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
-  background-image:  url(/assets/images/overlay-lo.jpg);
-  background-size: contain;
+  background-image: url(/assets/images/overlay-lo.jpg);
+  background-size: 100%;
   background-repeat: no-repeat;
-  
   overflow-x: hidden;
-  transition: 0.7s;
+  transition: 0.3s;
 }
 
 .overlay-content {
@@ -33,7 +41,7 @@ background-color: skyblue;
 
 .overlay a {
   padding: 8px;
-  text-shadow:  2px 2px #ff0000;
+  text-shadow: 2px 2px black;
   font-size: 50px;
   color: #fafafa;
   display: block;
@@ -42,7 +50,8 @@ background-color: skyblue;
 
 .overlay a:hover,
 .overlay a:focus {
-  color: olive;
+  color: lightpink;
+  text-shadow: purple;
 }
 
 .overlay .closebtn {
@@ -61,4 +70,50 @@ background-color: skyblue;
     top: 15px;
     right: 35px;
   }
+}
+
+.menu {
+  text-shadow: 2px 2px #fafafa;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 15px;
+  color: black;
+  display: flexbox;
+  float: right;
+  transition: 0.7s;
+}
+
+/***************Main Section************/
+
+.main {
+  background-color: skyblue;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.material-icons {
+  font-size: 35px;
+
+}
+
+.material-icons .menu-icon {
+  font-size: 35px;
+  float: right;
+  position: relative;
+  margin-top: 15px;
+}
+
+.bg-bulk {
+background-position: cover;
+  background: -webkit-radial-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10% );
+  background: -o-linear-radial -webkit-radial-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10%);
+  background: -moz-repeating-radial-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10%);
+  background: linear-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10%);
+  background-repeat: no-repeat;
+  opacity: 85%;
+  width: auto;
 }
