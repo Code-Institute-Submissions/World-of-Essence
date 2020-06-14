@@ -2,118 +2,73 @@
 
 body {
   font-family: "Alice" 800, sans-serif;
+  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
+  background: -o-linear-gradient(45deg, skyblue, white, lavender);
+  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
+  background: linear-gradient(45deg, skyblue, white, lavender);
+  background: no-repeat;
+
+  opacity: 85%;
+  height: 100%;
+  width: auto;
+  position:cover;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 /***************Header Section************/
 
-header {
+.navbar {
+  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
+  background: -o-linear-gradient(45deg, skyblue, white, lavender);
+  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
+  background: linear-gradient(45deg, skyblue, white, lavender);
+  background-repeat: repeat;
+  opacity: 85%;
+  width: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbarDropdownMenuLink {
   background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
   background: -o-linear-gradient(45deg, skyblue, white, lavender);
   background: -moz-linear-gradient(45deg, skyblue, white, lavender);
   background: linear-gradient(45deg, skyblue, white, lavender);
   background-repeat: no-repeat;
   opacity: 85%;
-  max-height: 100px;
   width: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-/***************Overlay Section************/
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-image: url(/assets/images/overlay-lo.jpg);
-  background-size: 100%;
+.dropdown-menu.show {
+  background: -webkit-linear-gradient(
+    45deg,
+    skyblue,
+    white,
+    lavender
+  ) ;
+  background: -o-linear-gradient(45deg, skyblue, white, lavender) ;
+  background: -moz-linear-gradient(45deg, skyblue, white, lavender) ;
+  background: linear-gradient(45deg, skyblue, white, lavender) ;
   background-repeat: no-repeat;
-  overflow-x: hidden;
-  transition: 0.3s;
+  opacity: 85%;
+  width: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-shadow: 2px 2px black;
-  font-size: 50px;
-  color: #fafafa;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-  color: lightpink;
-  text-shadow: purple;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-.menu {
-  text-shadow: 2px 2px #fafafa;
-  text-transform: uppercase;
-  font-size: 70px;
-  font-weight: 800;
-  margin-top: 15px;
-  color: black;
-  display: flexbox;
-  float: right;
-  transition: 0.7s;
+.navlink {
+  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
+  background: -o-linear-gradient(45deg, skyblue, white, lavender);
+  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
+  background: linear-gradient(45deg, skyblue, white, lavender);
+  background-repeat: no-repeat;
+  opacity: 85%;
+  width: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 /***************Main Section************/
 
-.main {
-  background-color: skyblue;
-}
-
 .logo {
   height: 100px;
   width: 100px;
-}
-
-.material-icons {
-  font-size: 35px;
-
-}
-
-.material-icons .menu-icon {
-  font-size: 35px;
-  float: right;
-  position: relative;
-  margin-top: 15px;
-}
-
-.bg-bulk {
-background-position: cover;
-  background: -webkit-radial-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10% );
-  background: -o-linear-radial -webkit-radial-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10%);
-  background: -moz-repeating-radial-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10%);
-  background: linear-gradient(farthest-corner triangle 45%  skyblue 40% white 10% lavender 10%);
-  background-repeat: no-repeat;
-  opacity: 85%;
-  width: auto;
 }
