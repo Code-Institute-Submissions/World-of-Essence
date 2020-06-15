@@ -2,18 +2,21 @@
 
 body {
   font-family: "Alice" 800, sans-serif;
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
-  background: -o-linear-gradient(45deg, skyblue, white, lavender);
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
-  background: linear-gradient(45deg, skyblue, white, lavender);
-  background: no-repeat;
+  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+  background-repeat: repeat!important;
 
   opacity: 85%;
   height: 100%;
   width: auto;
   position:cover;
+
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
+
+
 
 /***************Header Section************/
 
@@ -50,10 +53,15 @@ body {
   background: -moz-linear-gradient(45deg, skyblue, white, lavender) ;
   background: linear-gradient(45deg, skyblue, white, lavender) ;
   background-repeat: no-repeat;
+  background-position: absolute;
+  visibility: visible;
+  z-index: 10000000000000001;
   opacity: 85%;
   width: auto;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
+
+
 
 .navlink {
   background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
@@ -71,4 +79,15 @@ body {
 .logo {
   height: 100px;
   width: 100px;
+}
+
+.carousel-container {
+     width: 100%;
+    position:absolute; z-index: -1000;
+}
+.h1 {
+
+    font-family: "Alice&family", sans-serif;
+    font-size: 5rem;
+    
 }
