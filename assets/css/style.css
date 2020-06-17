@@ -1,93 +1,166 @@
-@import url("https://fonts.googleapis.com/css2?family=Alice&family: 100,200,300,400,500,600,700,800|Roboto: 100,200,300,400,500,600,700,800");
-
+@import url(https://fonts.googleapis.com/css2?family=Berkshire+Swash&family:200,300,400,500,600,700,800,900) | Roboto: 200,300,400,500,600,700,800,900);
 body {
-  font-family: "Alice" 800, sans-serif;
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
+    font-family: "Berkshire+Swash&family" 800, sans-serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+ background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
   background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
   background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
   background: linear-gradient(45deg, skyblue, white, lavender)!important;
   background-repeat: repeat!important;
-
-  opacity: 85%;
-  height: 100%;
   width: auto;
-  position:cover;
-
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  position:relative;
+  box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.5);
 }
 
 
 
 /***************Header Section************/
 
-.navbar {
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
-  background: -o-linear-gradient(45deg, skyblue, white, lavender);
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
-  background: linear-gradient(45deg, skyblue, white, lavender);
-  background-repeat: repeat;
-  opacity: 85%;
-  width: auto;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-.navbarDropdownMenuLink {
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
-  background: -o-linear-gradient(45deg, skyblue, white, lavender);
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
-  background: linear-gradient(45deg, skyblue, white, lavender);
-  background-repeat: no-repeat;
-  opacity: 85%;
-  width: auto;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-.dropdown-menu.show {
-  background: -webkit-linear-gradient(
-    45deg,
-    skyblue,
-    white,
-    lavender
-  ) ;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender) ;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender) ;
-  background: linear-gradient(45deg, skyblue, white, lavender) ;
-  background-repeat: no-repeat;
-  background-position: absolute;
-  visibility: visible;
-  z-index: 10000000000000001;
-  opacity: 85%;
-  width: auto;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
 
 
+.navbar-custom { 
+    background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+  color: #000;
+  font-size: 35px;
+  
+} 
 
-.navlink {
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender);
-  background: -o-linear-gradient(45deg, skyblue, white, lavender);
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender);
-  background: linear-gradient(45deg, skyblue, white, lavender);
-  background-repeat: no-repeat;
-  opacity: 85%;
-  width: auto;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
 
-/***************Main Section************/
+ a.nav-link {
+
+     color: #000;
+     text-shadow: rgb(177, 166, 166) 1px 0 10px;
+
+ }   
+
+
 
 .logo {
   height: 100px;
   width: 100px;
 }
 
+/***************Carousel Section************/
+
 .carousel-container {
      width: 100%;
-    position:absolute; z-index: -1000;
+    position:relative; 
+    height: 100%;
 }
-.h1 {
 
-    font-family: "Alice&family", sans-serif;
-    font-size: 5rem;
-    
+.carousel-container img {
+
+    height: 100%!important;
+
+}
+
+/***************About Section************/
+
+  .main-heading {
+      font-family: "Berkshire Swash" , cursive;
+font-weight: 900;
+     text-emphasis: bold;
+}
+ 
+ .intro {
+
+     font-family: "Berkshire Swash" , cursive;
+     font-weight: 500;
+     font-size: 2.5em;
+    text-align: center;
+}
+
+ .intro h1 {
+
+     font-weight: 500;
+   
+ }
+
+div > p {
+  background-color: lightpink;
+  font-family: "Berkshire Swash" , cursive
+ }
+
+
+
+
+
+
+.container-fluid {
+
+    padding: 0 0 0 0;
+    position: center;
+    }
+
+    /***************Products Section************/
+     
+   * {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
 }

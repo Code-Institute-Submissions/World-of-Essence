@@ -1,93 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>WOEAbout</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<title>WOEAbout</title>
-</head>
+  <body>
+    <header>
+      <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-custom bg-light">
+          <a class="navbar-brand" href="index.html"
+            ><img src="../assets/images/WOE_Overlay.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
 
-<body>
-	<header>
-   
-
-    <div class="header rounded">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><img src="../assets/images/WOE_Overlay.png" class="rounded" alt="logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-      <li class="nav-item dropdown rounded">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Products
-        </a>
-        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Bath Bombs</a>
-          <a class="dropdown-item" href="#">Body Lotions</a>
-          <a class="dropdown-item" href="#">Clamshells</a>
-          <a class="dropdown-item" href="#">Perfume Sprays</a>
-          <a class="dropdown-item" href="#">Reed Diffuser Refills</a>
-          <a class="dropdown-item" href="#">Room Sprays</a>
-          <a class="dropdown-item" href="#">Wax Melts</a>
-          
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+    <div class="intro">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="intro">
+              <h1>Welcome friend</h1>
+              <p class="text-muted">Thanks for stopping by.</p>
+              <p>We hope you enjoy our website and of course, our products!</p>
+            </div>
+          </div>
         </div>
-      </li>
-    </ul>
+
+        <div class="row">
+          <div class="col-md-6 overflow-auto">
+            <p>
+              We will provide you with top quality products from our
+              ever-expanding range. We are a family-run business and can assure
+              you of the very best products at the very best prices.
+            </p>
+          </div>
+
+          <div class="col-md-6 overflow-auto">
+            <p>
+              Every single customer is important to us, we want you to be
+              satisfied so you will come back again and hopefully tell your
+              friends about us.
+            </p>
+          </div>
+          </div>
+        
+
+    </div>
+            <div class="row">
+  <div class="column">
+    <img src="../assets/images/multi1.jpg" alt="multi1" style="width:100%">
   </div>
-</nav>
-    
-    </div> 
-
-	</header>
-	<section>
-    <h1> About us</h1>
-    <div class="container-fluid">
-    <div class="row">
-    <div class="col-md-4">
-    <h2> Welcome to World of Essence</h2>
-    <p> We hope you enjoy our website and of course, our products!</p>
-    <p> We will provide you with top quality products from our ever-expanding range. We are a family-run business and we can assure you of the very best products at the very best prices.
-    Every single customer is important to us, we want you to be satisfied so you will come back again and hopefully tell your friends about us.</p>
-    
-    </div>
-    </div>
-    <div class="col-md-4"><img src="../assets/images/logo3.jpg" alt="thumbnail" class="img-thumbnail"></div>
-    
-    <div class="col-md-4"></div>
-    
-    
+  <div class="column">
+    <img src="../assets/images/multi2.jpg" alt="multi1" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="../assets/images/multi3.jpg" alt="multi3" style="width:100%">
+  </div>
 </div>
-    
-	</section>
-	<footer></footer>
 
-
-
-</body>
-
+      </div>
+    </section>
+    <footer></footer>
+  </body>
 </html>
