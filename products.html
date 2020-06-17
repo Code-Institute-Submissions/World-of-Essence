@@ -5,129 +5,115 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-	<link rel="stylesheet" href="style.css">
-	<title>WOEAbout</title>
+	<link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+	<title>WOEproducts</title>
 </head>
 
 <body>
-	<header>
-      <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-custom bg-light">
-          <a class="navbar-brand" href="index.html"
-            ><img src="../assets/images/WOE_Overlay.png" alt="logo"
-
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-
-               <li class="nav-item">
-                <a class="nav-link" href="products.html">Products</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+	 <header>
+  <div class="header">
+  <a href="index.html" class="logo"> <img src="../assets/images/WOE_Overlay.png" ></a>
+  <div class="header-right">
+    <a  href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a class="active" href="products.html">Products</a>
+  </div>
+</div>
     </header>
 	<section>
     <div class="main">
 
 <h1>Our products</h1>
-<hr>
 
-<h2>PORTFOLIO</h2>
+
+<h2>Good value every time</h2>
 
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('people')"> People</button>
+  <button class="btn" onclick="filterSelection('bath-bombs')"> Bath-bombs</button>
+  <button class="btn" onclick="filterSelection('Body lotions')"> Body lotions</button>
+  <button class="btn" onclick="filterSelection('clamshells')"> clamshells</button>
+  <button class="btn" onclick="filterSelection('perfume sprays')"> perfume sprays</button>
+  <button class="btn" onclick="filterSelection('Reed Diffuser Refills')"> Reed Diffuser Refills</button>
+  <button class="btn" onclick="filterSelection('Room Sprays')"> Room Sprays</button>
+  <button class="btn" onclick="filterSelection('Wax Melts')"> Wax Melts</button>
+  
 </div>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-  <div class="column nature">
+  <div class="column bath-bombs">
     <div class="content">
-      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="../assets/product-images/bath-bombs/rosejam.jpg" alt="slide1" style="width:100%">
+      <h4>Rosejam bathbomb</h4>
+      <p>Boom in your bathroom...</p>
     </div>
   </div>
-  <div class="column nature">
+  <div class="column Body lotions">
     <div class="content">
-    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="../assets/product-images/Body lotions/saltedcaramel.jpg" alt="slide2" style="width:100%">
+      <h4>Salted caramel body lotion</h4>
+      <p>Here's the rub...</p>
     </div>
   </div>
-  <div class="column nature">
+  <div class="column clamshells">
     <div class="content">
-    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-      <h4>Forest</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="../assets/product-images/clamshells/aliens.jpg" alt="slide3" style="width:100%">
+      <h4>Aliens clamshell</h4>
+      <p>We're not shelfish...</p>
     </div>
   </div>
   
-  <div class="column cars">
+  <div class="column perfume sprays">
     <div class="content">
-      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
+       <img src="../assets/product-images/perfume sprays/aliens 1 x 1.jpg" alt="slide4" style="width:100%">
+      <h4>Aliens perfume </h4>
+      <p>Spray it again...</p>
     </div>
   </div>
-  <div class="column cars">
+  <div class="column Reed Diffuser Refills">
     <div class="content">
-    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="../assets/product-images/Reed Diffuser Refills/Linen Fresh.jpg" alt="slide5" style="width:100%">
+      <h4>Linen fresh diffuser refill</h4>
+      <p>Reed more here...</p>
     </div>
   </div>
-  <div class="column cars">
+  <div class="column Room Sprays">
     <div class="content">
-    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="../assets/product-images/Room Sprays/angels.jpg" alt="slide6" style="width:100%">
+      <h4>Angels room spray</h4>
+      <p>All in a spray's  work..</p>
     </div>
   </div>
 
-  <div class="column people">
+  <div class="column Wax Melts">
     <div class="content">
-      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
-      <h4>Girl</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="../assets/product-images/Wax Melts/black orchid1 x 1.jpg" alt="Wax Melts" style="width:100%">
+      <h4>Black orchid wax melts</h4>
+      <p>Let's wax lyrical..</p>
     </div>
   </div>
   <div class="column people">
@@ -196,6 +182,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
+
 
 
 </body>
