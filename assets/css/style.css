@@ -118,17 +118,17 @@ body {
 /***************About Section************/
 
   .main {
-      font-family: "Berkshire Swash" , cursive!important;
+      font-family: "Berkshire Swash" , cursive;
       width: 100%;
       height: auto;
 
 }
 div.main { width: 100%}
 
-.btn btn-custom {  background: -webkit-linear-gradient(45deg,blue , whitesmoke, lavender)!important;
-  background: -o-linear-gradient(45deg, blue, whitesmoke, lavender)!important;
-  background: -moz-linear-gradient(45deg, blue, whitesmoke, lavender)!important;
-  background: linear-gradient(45deg, navy, whitesmoke, lavender)!important;
+.btn btn-custom {  background: -webkit-linear-gradient(45deg,blue , whitesmoke, lavender);
+  background: -o-linear-gradient(45deg, blue, whitesmoke, lavender);
+  background: -moz-linear-gradient(45deg, blue, whitesmoke, lavender);
+  background: linear-gradient(45deg, navy, whitesmoke, lavender);
   color: darkslategrey;
   border-radius: 50%;
     }
