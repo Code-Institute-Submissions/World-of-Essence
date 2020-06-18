@@ -4,10 +4,10 @@ body {
     font-family: "Berkshire+Swash&family" 800, sans-serif;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
- background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+ background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
   background-repeat: repeat!important;
   width: auto;
   position:relative;
@@ -28,10 +28,10 @@ body {
 /***************Background for header************/
 .header {
   overflow: hidden;
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
   opacity: 75%;
   background-repeat: repeat!important;
   width: auto;
@@ -60,20 +60,20 @@ body {
 
 /* Change the background color on mouse-over */
 .header-right a:hover {
-   background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
   color: black;
   border-radius: 50%;
 }
 
 /* Style the active/current link*/
 .header a.active {
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+ background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
   color: navy;
   border-radius: 50%;
 }
@@ -81,10 +81,10 @@ body {
 /* Float the link section to the right */
 .header-right {
   float: right;
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
  
 }
 
@@ -119,12 +119,31 @@ body {
 
   .main {
       font-family: "Berkshire Swash" , cursive!important;
+      width: 100%;
+      height: auto;
 
 }
+div.main { width: 100%}
+
+.btn btn-custom {  background: -webkit-linear-gradient(45deg,blue , whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, blue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, blue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, navy, whitesmoke, lavender)!important;
+  color: darkslategrey;
+  border-radius: 50%;
+    }
+
+
+
 
 main h1 h2 {
     font-family: "Berkshire Swash" , cursive;
+    font-size: 60px;
     text-align: center;
+    background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
 }
  
  .intro {
@@ -133,20 +152,25 @@ main h1 h2 {
      font-weight: 500;
      font-size: 2.5em;
     text-align: center;
-    
+     background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
 }
 
- .div > h1 {
-font-family:"Berkshire Swash" , cursive;
-text-align: center;
- }
+ img .thumbnail {
+    width: 33%;
+    height: 33%;
+    object-fit: cover;
+    float: left;
 
+}
 
- .column img {
+ .column.about img {
 
-     height: auto;
+    width: 100%;
      object-fit: cover;
-
+     height: 300px;
  }
 
 
@@ -170,11 +194,13 @@ text-align: center;
 .main {
   max-width: 1000px;
   margin: auto;
+  text-align: center;
 }
 
 h1 {
   font-size: 50px;
-  word-break: break-all;
+  overflow-y: scroll;
+
 }
 
 .row {
@@ -193,7 +219,7 @@ h1 {
   width: 33.33%;
   display: none; /* Hide all elements by default */
 }
-
+/* fit image to column */ 
 .column img {
 
     height: 80%;
@@ -210,10 +236,10 @@ h1 {
 
 /* Content */
 .content {
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+  background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
   padding: 10px;
   height: 100%;
 }
@@ -228,18 +254,18 @@ h1 {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+ background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: -webkit-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -o-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: -moz-linear-gradient(45deg, skyblue, white, lavender)!important;
-  background: linear-gradient(45deg, skyblue, white, lavender)!important;
+ background: -webkit-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -o-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: -moz-linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
+  background: linear-gradient(45deg, skyblue, whitesmoke, lavender)!important;
   border-radius: 50%;
 }
 
