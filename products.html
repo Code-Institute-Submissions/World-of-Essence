@@ -5,37 +5,21 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto&display=swap" rel="stylesheet">
-	<link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+    
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 	<title>WOEproducts</title>
 </head>
 
 <body>
 	 <header>
   <div class="header">
-  <a href="index.html" class="logo"> <img src="../assets/images/WOE_Overlay.png" ></a>
+  <a href="index.html" class="logo"> <img src="../assets/images/WOE_Overlay.png" alt="logo" ></a>
   <div class="header-right">
     <a  href="index.html">Home</a>
     <a href="contact.html">Contact</a>
@@ -44,7 +28,7 @@
   </div>
 </div>
     </header>
-	<section>
+<section>
     <div class="main">
 
 <h1>Our products</h1>
@@ -54,42 +38,36 @@
 
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('bath-bombs')"> Bath-bombs</button>
-  <button class="btn" onclick="filterSelection('Body-lotions')"> Body lotions</button>
+  <button class="btn" onclick="filterSelection('bath_bombs')"> Bathbombs</button>
+  <button class="btn" onclick="filterSelection('Body_lotions')"> Body-lotions</button>
   <button class="btn" onclick="filterSelection('clamshells')"> clamshells</button>
-  <button class="btn" onclick="filterSelection('perfume-sprays')"> perfume sprays</button>
-  <button class="btn" onclick="filterSelection('Reed-Diffuser-Refills')"> Reed Diffuser Refills</button>
-  <button class="btn" onclick="filterSelection('Room-Sprays')"> Room Sprays</button>
-  <button class="btn" onclick="filterSelection('Wax-Melts')"> Wax Melts</button>
+  <button class="btn" onclick="filterSelection('perfume_sprays')"> perfume sprays</button>
+  <button class="btn" onclick="filterSelection('Reed_Diffuser_Refills')"> Reed Diffuser Refills</button>
+  <button class="btn" onclick="filterSelection('Room_Sprays')"> Room Sprays</button>
+  <button class="btn" onclick="filterSelection('Wax_Melts')"> Wax Melts</button>
   
 </div>
 
 <!-- Portfolio Gallery Grid -->
 
 <div class="row">
-  <div class="column bath-bombs col-md-4">
+  <div class="column bath_bombs">
     <div class="content">
-    <div class="thumbnail">
-      <img src="../assets/product-images/bath-bombs/rosejam.jpg" alt="slide1" class="pic" style="width:100%;">
-      </div>
+      <img src="../assets/product_images/bath_bombs/rosejam.jpg" alt="slide1" class="pic" style="width:100%;">
       <h4>Rosejam bathbomb</h4> 
       <p>Boom in your bathroom...</p>
     </div>
   </div>
-  <div class="column Body-lotions col-md-4">
+  <div class="column Body_lotions">
     <div class="content">
-    <div class="thumbnail">
-    <img src="../assets/product-images/Body-lotions/saltedcaramel.jpg" alt="slide2" class="pic" style="width:100%;">
-    </div>
+    <img src="../assets/product_images/Body_lotions/saltedcaramel.jpg" alt="slide2" class="pic" style="width:100%;">
       <h4>Salted caramel body lotion</h4>
       <p>Here's the rub...</p>
-    </div>
   </div>
-  <div class="column clamshells col-md-4">
+  </div>
+  <div class="column clamshells">
     <div class="content">
-    <div class="thumbnail">
-    <img src="../assets/product-images/clamshells/aliens.jpg" alt="slide3" class="pic" style="width:100%;">
-    </div>
+    <img src="../assets/product_images/clamshells/aliens.jpg" alt="slide3" class="pic" style="width:100%;">
       <h4>Aliens clamshell</h4>
       <p>We're not shelfish...</p>
     </div>
@@ -97,61 +75,47 @@
  
   
   
-  <div class="column perfume-sprays col-md-4">
+  <div class="column perfume_sprays">
     <div class="content">
-    <div class="thumbnail">
-       <img src="../assets/product-images/perfume-sprays/aliens 1 x 1.jpg" alt="slide4" class="pic" style="width:100%;">
-       </div>
+       <img src="../assets/product_images/perfume_sprays/aliens_lo 1 x 1.jpg" alt="slide4" class="pic" style="width:100%;">
       <p>Spray it again...</p>
     </div>
   </div>
-  <div class="column Reed-Diffuser-Refills col-md-4">
+  <div class="column Reed_Diffuser_Refills">
     <div class="content">
-    <div class="thumbnail">
-    <img src="../assets/product-images/Reed-Diffuser-Refills/Linen Fresh.jpg" alt="slide5" class="pic" style="width:100%;">
-    </div>
+    <img src="../assets/product_images/Reed_Diffuser_Refills/Linen Fresh.jpg" alt="slide5" class="pic" style="width:100%;">
       <h4>Linen fresh diffuser refill</h4>
       <p>Reed more here...</p>
     </div>
   </div>
-  <div class="column Room-Sprays col-md-4">
+  <div class="column Room_Sprays">
     <div class="content">
-    <div class="thumbnail">
-    <img src="../assets/product-images/Room-Sprays/angels.jpg" alt="slide6" class="pic" style="width:100%;">
-    </div>
+    <img src="../assets/product_images/Room_Sprays/angels.jpg" alt="slide6" class="pic" style="width:100%;">
     <h4>Angels room spray</h4>
       <p>All in a spray's  work..</p>
     </div>
   </div>
-
-<div class="row">
-  <div class="column Wax Melts col-md-4">
+  <div class="column Wax_Melts">
     <div class="content">
-    <div class="thumbnail">
-      <img src="../assets/product-images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
-      </div>
+      <img src="../assets/product_images/Wax_Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
       <h4>Black orchid wax melts</h4>
       <p>Let's wax lyrical..</p>
     </div>
   </div>
-  <div class="column people col-md-4">
+  <div class="column">
     <div class="content">
-    <div class="thumbnail">
-    <img src="../assets/product-images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
-    </div>
+    <img src="../assets/product_images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column peoplecol-md-4">
+  <div class="column">
     <div class="content">
-    <div class="thumbnail">
-    <img src="../assets/product-images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
-    </div>
+    <img src="../assets/product_images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
       <h4>Woman</h4>
       <p>Lorem ipsum dolor..</p>
-    </div>
   </div>
-</div>
+  </div>
+ 
 <!-- END GRID -->
 </div>
 
@@ -204,9 +168,131 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
+</body>
+
+</html>
+
+<!-- Portfolio Gallery Grid -->
+
+<div class="row">
+  <div class="column bath-bombs">
+    <div class="content">
+      <img src="../assets/product-images/bath-bombs/rosejam.jpg" alt="slide1" class="pic" style="width:100%;">
+      <h4>Rosejam bathbomb</h4> 
+      <p>Boom in your bathroom...</p>
+    </div>
+
+  <div class="column Body-lotions">
+    <div class="content">
+    <img src="../assets/product-images/Body-lotions/saltedcaramel.jpg" alt="slide2" class="pic" style="width:100%;">
+      <h4>Salted caramel body lotion</h4>
+      <p>Here's the rub...</p>
+  </div>
+  <div class="column clamshells">
+    <div class="content">
+    <img src="../assets/product-images/clamshells/aliens.jpg" alt="slide3" class="pic" style="width:100%;">
+      <h4>Aliens clamshell</h4>
+      <p>We're not shelfish...</p>
+    </div>
+  </div>
+ 
+  
+  
+  <div class="column perfume-sprays">
+    <div class="content">
+       <img src="../assets/product-images/perfume-sprays/aliens 1 x 1.jpg" alt="slide4" class="pic" style="width:100%;">
+      <p>Spray it again...</p>
+    </div>
+  </div>
+  <div class="column Reed-Diffuser-Refills">
+    <div class="content">
+    <img src="../assets/product-images/Reed-Diffuser-Refills/Linen Fresh.jpg" alt="slide5" class="pic" style="width:100%;">
+      <h4>Linen fresh diffuser refill</h4>
+      <p>Reed more here...</p>
+    </div>
+  </div>
+  <div class="column Room-Sprays">
+    <div class="content">
+    <img src="../assets/product-images/Room-Sprays/angels.jpg" alt="slide6" class="pic" style="width:100%;">
+    <h4>Angels room spray</h4>
+      <p>All in a spray's  work..</p>
+    </div>
+  </div>
+  <div class="column Wax-Melts">
+    <div class="content">
+      <img src="../assets/product-images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
+      <h4>Black orchid wax melts</h4>
+      <p>Let's wax lyrical..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../assets/product-images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../assets/product-images/Wax-Melts/black orchid1 x 1.jpg" alt="Wax Melts" class="pic" style="width:100%;">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+  </div>
+  </div>
+  </div>
+  </div>
+ 
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+	</section>
+	<footer></footer>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
 
 
-
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 </body>
 
 </html>
