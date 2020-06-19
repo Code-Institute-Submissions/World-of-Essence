@@ -196,15 +196,48 @@ height:150px;
  display: inline;
 }
 
-.footer-links i {
-   font-size: 400%;
-   font-weight: 500;
-   margin: 1%;
-   padding: 5%;
+
+  
+
+   .fa-facebook-square:before  {
+    font-size: 75px;
+   margin: 5%;
+   padding: 10% 10% 10% 10%;
+   color:#191970;
+
+   }
+
+.fa-twitter-square:before {
+
+     font-size: 75px;
+   margin: 5%;
+   padding: 10% 10% 10% 10%;
+   color:#191970;
+}
+
+.fa-youtube-square:before {
+  font-size: 75px;
+   margin: 5%;
+   padding: 10% 10% 10% 10%;
    color:#191970;
 
 }
-  
+
+.fa-instagram:before {
+  font-size: 75px;
+   margin: 5%;
+   padding: 10% 10% 10% 10%;
+   color:#191970;
+
+}
+
+ 
+
+
+
+
+
+
 
 
 
@@ -238,6 +271,7 @@ section {
   width: 100%;
   position: relative;
   height: 100%;
+  
 }
 
 .carousel-container img {
@@ -246,6 +280,12 @@ section {
 
 .carousel-container::after {
     clear:both;
+}
+
+.carousel-control-next .carousel-control-previous{
+
+    font-size: 200%!important;
+     color: #191970!important;
 }
 
 /***************About Section************/
