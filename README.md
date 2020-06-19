@@ -25,10 +25,10 @@ Existing Features
 
 1. Header: a navigation bar with links to all pages. Buttons transform on hover and change colour and shape on click.
 2. Landing page: with an image carousel. Based on BS carousel from W3schools.com, utilising bootstrap 4.5 and modified to suit.
-3. About page:Simple information page utilising "Jumbotron" from bootstrap for visual appeal and a button link to products page.
+3. About page:Simple information page utilising "Jumbotron" from bootstrap for visual appeal and a button link to products page and an e-mail link.
 4. Products page: based on portfolio with filtering from W3schools.com,utilising bootstrap 4.5 and modified to suit. Filter allows items to be
 sorten into types for ease of viewing.
-
+5. footer section with social media links.
 
 Features Left to Implement:
 1. An ecommerce purchasing feature to enable customers to purchase products.
@@ -37,6 +37,7 @@ Features Left to Implement:
 4. The complete product range to be added to the gallery on the products page.
 5. More information to be added on products (description, usage, "tasting notes!!")
 6. The about page needs more information regarding the staff/family.
+7. The ability to share and /or like on social media easily.
 
 Other feature ideas:
 1. A stock level monitor for managerial use.
